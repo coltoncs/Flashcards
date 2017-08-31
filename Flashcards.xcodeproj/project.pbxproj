@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B21D0361F53C45500727327 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B21D0341F53C45500727327 /* Model.xcdatamodeld */; };
+		9B21D0391F53C4A000727327 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B21D0371F53C4A000727327 /* Flashcard.swift */; };
+		9B21D03A1F53C4A000727327 /* FlashcardCoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B21D0381F53C4A000727327 /* FlashcardCoreDataProperties.swift */; };
 		9BD97D2D1F530FC4008A27A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD97D2C1F530FC4008A27A3 /* AppDelegate.swift */; };
 		9BD97D2F1F530FC4008A27A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD97D2E1F530FC4008A27A3 /* ViewController.swift */; };
 		9BD97D321F530FC4008A27A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD97D301F530FC4008A27A3 /* Main.storyboard */; };
-		9BD97D351F530FC4008A27A3 /* Flashcards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BD97D331F530FC4008A27A3 /* Flashcards.xcdatamodeld */; };
 		9BD97D371F530FC4008A27A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD97D361F530FC4008A27A3 /* Assets.xcassets */; };
 		9BD97D3A1F530FC4008A27A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD97D381F530FC4008A27A3 /* LaunchScreen.storyboard */; };
 		9BD97D451F530FC5008A27A3 /* FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD97D441F530FC5008A27A3 /* FlashcardsTests.swift */; };
 		9BD97D501F530FC5008A27A3 /* FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD97D4F1F530FC5008A27A3 /* FlashcardsUITests.swift */; };
+		9BD97D5E1F53151B008A27A3 /* FlashcardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD97D5D1F53151B008A27A3 /* FlashcardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B21D0351F53C45500727327 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		9B21D0371F53C4A000727327 /* Flashcard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Flashcard.swift; path = ../Flashcard.swift; sourceTree = "<group>"; };
+		9B21D0381F53C4A000727327 /* FlashcardCoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlashcardCoreDataProperties.swift; path = ../FlashcardCoreDataProperties.swift; sourceTree = "<group>"; };
 		9BD97D291F530FC4008A27A3 /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD97D2C1F530FC4008A27A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BD97D2E1F530FC4008A27A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BD97D311F530FC4008A27A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9BD97D341F530FC4008A27A3 /* Flashcards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flashcards.xcdatamodel; sourceTree = "<group>"; };
 		9BD97D361F530FC4008A27A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BD97D391F530FC4008A27A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BD97D3B1F530FC4008A27A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		9BD97D4B1F530FC5008A27A3 /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD97D4F1F530FC5008A27A3 /* FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITests.swift; sourceTree = "<group>"; };
 		9BD97D511F530FC5008A27A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD97D5D1F53151B008A27A3 /* FlashcardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashcardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,14 @@
 			children = (
 				9BD97D2C1F530FC4008A27A3 /* AppDelegate.swift */,
 				9BD97D2E1F530FC4008A27A3 /* ViewController.swift */,
+				9BD97D5D1F53151B008A27A3 /* FlashcardViewController.swift */,
 				9BD97D301F530FC4008A27A3 /* Main.storyboard */,
 				9BD97D361F530FC4008A27A3 /* Assets.xcassets */,
 				9BD97D381F530FC4008A27A3 /* LaunchScreen.storyboard */,
 				9BD97D3B1F530FC4008A27A3 /* Info.plist */,
-				9BD97D331F530FC4008A27A3 /* Flashcards.xcdatamodeld */,
+				9B21D0341F53C45500727327 /* Model.xcdatamodeld */,
+				9B21D0371F53C4A000727327 /* Flashcard.swift */,
+				9B21D0381F53C4A000727327 /* FlashcardCoreDataProperties.swift */,
 			);
 			path = Flashcards;
 			sourceTree = "<group>";
@@ -262,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B21D03A1F53C4A000727327 /* FlashcardCoreDataProperties.swift in Sources */,
+				9B21D0391F53C4A000727327 /* Flashcard.swift in Sources */,
 				9BD97D2F1F530FC4008A27A3 /* ViewController.swift in Sources */,
-				9BD97D351F530FC4008A27A3 /* Flashcards.xcdatamodeld in Sources */,
 				9BD97D2D1F530FC4008A27A3 /* AppDelegate.swift in Sources */,
+				9BD97D5E1F53151B008A27A3 /* FlashcardViewController.swift in Sources */,
+				9B21D0361F53C45500727327 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +521,7 @@
 				9BD97D561F530FC5008A27A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BD97D571F530FC5008A27A3 /* Build configuration list for PBXNativeTarget "FlashcardsTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +530,7 @@
 				9BD97D591F530FC5008A27A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BD97D5A1F530FC5008A27A3 /* Build configuration list for PBXNativeTarget "FlashcardsUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,17 +539,18 @@
 				9BD97D5C1F530FC5008A27A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		9BD97D331F530FC4008A27A3 /* Flashcards.xcdatamodeld */ = {
+		9B21D0341F53C45500727327 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				9BD97D341F530FC4008A27A3 /* Flashcards.xcdatamodel */,
+				9B21D0351F53C45500727327 /* Model.xcdatamodel */,
 			);
-			currentVersion = 9BD97D341F530FC4008A27A3 /* Flashcards.xcdatamodel */;
-			path = Flashcards.xcdatamodeld;
+			currentVersion = 9B21D0351F53C45500727327 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
